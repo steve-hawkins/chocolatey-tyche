@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if �O� doesn�t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>Tyche</id>
+    <title>Tyche</title>
+    <version>0.0.0</version>
+    <authors>Steven Hawkins</authors>
+    <owners>Steven Hawkins</owners>
+    <summary>Installs Tyche</summary>
+    <description>Installs Tyche</description>
+    <projectUrl>https://github.com/steve-hawkins/chocolatey-tyche</projectUrl>
+    <packageSourceUrl>https://github.com/steve-hawkins/chocolatey-tyche</packageSourceUrl>
+    <tags>tyche dotnet admin</tags>
+    <licenseUrl>https://github.com/steve-hawkins/chocolatey-tyche/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
